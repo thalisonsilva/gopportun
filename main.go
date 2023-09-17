@@ -9,4 +9,6 @@ func main() {
 
 	router.Inicializa()
 
+	
+
 }
