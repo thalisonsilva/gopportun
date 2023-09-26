@@ -8,6 +8,5 @@ import (
 func main() {
 	// Inicialize Router
 
-	router.Inicializa()	
-	router.InicializaRoutes()
+	router.Inicializa()
 }
