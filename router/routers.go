@@ -4,7 +4,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"net/http"
 )
-
+//Rotas de entrada
 func InicializaRoutes(router *gin.Engine) {
 	v1 := router.Group("/api/v1")
 	{
