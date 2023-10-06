@@ -1,12 +1,12 @@
-package main
+package gopportun_test
 
 import (
+	"testing"
+
 	"github.com/thalisonsilva/gopportun.git/router"
 )
 
-func main() {
-
-	// Inicialize Router
+func TestMain(m *testing.M) {
 	router.Inicializa()
-
+	m.Run()
 }
